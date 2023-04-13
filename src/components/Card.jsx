@@ -1,6 +1,6 @@
 import React from "react";
 
-import star from "../assets/star.svg";
+import star from "../assets/star.png";
 
 export default function Card(props) {
   return (

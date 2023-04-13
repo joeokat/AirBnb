@@ -1,7 +1,6 @@
 import React from "react";
-import hero from "../assets/hero.jpg";
-
-import Greetings from "../components/Greetings";
+import hero from "../assets/hero.png";
+import Greetings from "./Greetings";
 
 export default function Hero() {
   return (
