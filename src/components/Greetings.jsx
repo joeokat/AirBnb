@@ -15,5 +15,5 @@ export default function Greetings() {
     timeOfDay = "night";
   }
 
-  return <h1>Good {timeOfDay} Traveler!</h1>;
+  return <h1>Good {timeOfDay} traveler!</h1>;
 }

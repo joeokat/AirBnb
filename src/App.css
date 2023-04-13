@@ -15,10 +15,6 @@
   color: #918e9b;
 }
 
-.bold {
-  font-weight: 900;
-}
-
 section {
   padding-top: 32px;
   margin: auto 40px;
@@ -34,14 +30,23 @@ section {
   align-self: center;
 }
 
+.greeting--bold {
+  font-size: x-large;
+  color: salmon;
+  font-weight: 900;
+  margin-bottom: -8px;
+}
+
 .hero--header {
   margin-top: -8px;
   margin-bottom: 16px;
+  font-size: 1.7rem;
 }
 
 .hero--text {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 1rem;
 }
 
 .card {
