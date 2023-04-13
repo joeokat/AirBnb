@@ -4,9 +4,9 @@ import star from "../assets/star.png";
 
 export default function Card(props) {
   return (
-    <section className="card--section">
+    <section>
       <div className="card">
-        <img src="../{props.img}" alt="" className="card--image" />
+        <img src={`../assets/${props.img}`} alt="" className="card--image" />
         <div className="card--stats">
           <img src={star} alt="star" className="card--star" />
           <span>{props.rating}</span>
@@ -15,7 +15,7 @@ export default function Card(props) {
         </div>
         <p className="card--title">{props.hotel}</p>
         <p>
-          <span className="card--bold">from ȼ{props.fee}</span> / person
+          <span className="card--price">from ȼ{props.fee}</span> / person
         </p>
       </div>
     </section>
