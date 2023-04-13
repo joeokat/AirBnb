@@ -88,3 +88,8 @@ section {
   margin-top: auto;
   font-weight: 600;
 }
+
+/* .card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
