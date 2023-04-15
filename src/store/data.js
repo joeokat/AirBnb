@@ -14,7 +14,7 @@ const data = [
       rating: 5.0,
       reviewCount: 6,
     },
-    location: "NR",
+    location: "GA",
     openSpots: 0,
   },
   {
@@ -28,7 +28,7 @@ const data = [
       rating: 5.0,
       reviewCount: 30,
     },
-    location: "ER",
+    location: "Online",
     openSpots: 27,
   },
   {
@@ -42,7 +42,7 @@ const data = [
       rating: 4.8,
       reviewCount: 2,
     },
-    location: "GA",
+    location: "ER",
     openSpots: 3,
   },
 ];
