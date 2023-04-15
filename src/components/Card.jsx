@@ -1,6 +1,6 @@
 import React from "react";
 
-import star from "../assets/star.png";
+import star from "../assets/star.svg";
 
 export default function Card(props) {
   let chipText;
@@ -12,7 +12,7 @@ export default function Card(props) {
 
   return (
     <div className="card">
-      {chipText && <div className=".card--chip">{chipText}</div>}
+      {chipText && <div className="card--chip">{chipText}</div>}
       <img src={props.item.coverImg} alt="" className="card--image" />
       <div className="card--stats">
         <img src={star} alt="star" className="card--star" />
